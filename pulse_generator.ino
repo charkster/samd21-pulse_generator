@@ -14,8 +14,8 @@ String        hexChar;
 
 
 void setup() {
-  SerialUSB.begin(115200);                       // Send data back on the native port
-  while(!SerialUSB);                             // Wait for the SerialUSB port to be ready
+  SerialUSB.begin(115200);         // Data will be revieved on the USB serial port
+  while(!SerialUSB);               // Wait for the SerialUSB port to be ready
   pinMode(PIN, OUTPUT);
   digitalWrite(PIN, LOW);
 }

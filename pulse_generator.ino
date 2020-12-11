@@ -9,8 +9,8 @@ uint32_t      char_counter = 0;
 volatile char inChar;
 String        hexChar; 
 
-#define PERIOD 100       // options are 2 and larger integers
-#define PIN 7            // 7 is PB9 on XIAO
+#define PERIOD 2       // options are 2 and larger integers
+#define PIN 7          // 7 is PB9 on XIAO
 
 
 void setup() {
